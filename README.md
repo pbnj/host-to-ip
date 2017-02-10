@@ -1,5 +1,5 @@
 # host-to-ip
-A flexible way to look up IP addresses for host names (e.g. `github.com`) and FQDNs (e.g. `https://api.github.com`).
+A flexible way to look up IP addresses for host names (e.g. `github.com`) and URLs (e.g. `https://api.github.com`).
 
 ## Install
 `npm install --save host-to-ip`
