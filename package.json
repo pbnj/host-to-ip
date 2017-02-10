@@ -1,6 +1,6 @@
 {
   "name": "host-to-ip",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A flexible way to look up IP addresses for host names and URLs",
   "main": "index.js",
   "scripts": {
