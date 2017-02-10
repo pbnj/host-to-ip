@@ -1,5 +1,5 @@
 {
-  "name": "host-to-ip",
+  "name": "get-ip",
   "version": "0.1.0",
   "description": "Look up IP addresses for host names and domain names",
   "main": "index.js",
