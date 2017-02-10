@@ -1,0 +1,22 @@
+{
+  "name": "host-to-ip",
+  "version": "0.1.0",
+  "description": "Look up IP addresses for host names and domain names",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "hostname",
+    "host",
+    "ip",
+    "ipv4",
+    "lookup"
+  ],
+  "author": "Peter Benjamin",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
