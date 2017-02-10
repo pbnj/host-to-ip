@@ -1,20 +1,20 @@
-# get-ip
+# host-to-ip
 A flexible way to look up IP addresses for host names (e.g. `github.com`) and URLs (e.g. `https://api.github.com`).
 
 ## Install
-`npm install --save get-ip`
+`npm install --save host-to-ip`
 
 ## Usage
 ```
-const getIp = require('get-ip');
+const hostToIp = require('host-to-ip');
 
 const hostname = 'github.com'
 const fqdn = 'https://api.github.com'
 
-getIp(hostname).then(ip => console.log(ip)).catch(err => console.error(err))
+hostToIp(hostname).then(ip => console.log(ip)).catch(err => console.error(err))
 //=> '192.30.253.112'
 
-getIp(fqdn, {all: true, family: 4}).then(ip => console.log(ip)).catch(err => console.error(err))
+hostToIp(fqdn, {all: true, family: 4}).then(ip => console.log(ip)).catch(err => console.error(err))
 //=> [{"address": "192.30.253.116", "family": 4}, {"address": "192.30.253.117", "family": 4}]
 ```
 
