@@ -1,4 +1,6 @@
 # host-to-ip
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/petermbenjamin/host-to-ip.svg)](https://greenkeeper.io/)
 A flexible way to look up IP addresses for host names (e.g. `github.com`) and URLs (e.g. `https://api.github.com`).
 
 ## Install
